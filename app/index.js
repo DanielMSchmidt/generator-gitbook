@@ -43,17 +43,13 @@ var GitbookGenerator = yeoman.generators.Base.extend({
 
     this.copy('_README.md', 'README.md');
     this.copy('_SUMMARY.md', 'SUMMARY.md');
+    this.copy('_package.json', 'package.json');
     this.copy('_page.md', 'section1/page1.md');
     this.copy('_page.md', 'section1/page2.md');
     this.copy('_page.md', 'section2/page1.md');
-  },
 
-  runNpm: function(){
-    var done = this.async();
-    console.log('\nEverything Setup !!!\n');
-    console.log('\nServer => gitbook serve .\n');
-    console.log('\nBuild => gitbook build . --output=./build \n');
-    done();
+    console.log('\nServer => gitbook serve .');
+    console.log('\nBuild => gitbook build . --output=./build');
   }
 });
 

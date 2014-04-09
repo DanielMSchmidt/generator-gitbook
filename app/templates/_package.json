@@ -1,0 +1,6 @@
+{
+  "name": "<%= bookname%>",
+  "version": "0.0.0",
+  "description": "<%= bookname%>",
+  "license": "MIT"
+}
