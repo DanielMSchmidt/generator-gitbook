@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-gitbook' ]; then cd .. && eval "mv $currentfolder generator-gitbook" && cd generator-gitbook; fi
+
