@@ -1,6 +1,4 @@
-# generator-gitbook [![Build Status](https://secure.travis-ci.org/DanielMSchmidt/generator-gitbook.png?branch=master)](https://travis-ci.org/DanielMSchmidt/generator-gitbook)
-
-> [Yeoman](http://yeoman.io) generator
+# generator-gitbook
 
 
 ## Getting Started
