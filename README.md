@@ -33,6 +33,14 @@ Finally, initiate the generator:
 $ yo gitbook
 ```
 
+Now you need to init a git repository in this folder.
+
+To deploy your book to github pages do
+
+```
+grunt deploy
+```
+
 ### Getting To Know Yeoman
 
 Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
