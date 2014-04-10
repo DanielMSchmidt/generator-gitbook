@@ -33,7 +33,7 @@ Finally, initiate the generator:
 $ yo gitbook
 ```
 
-Now you need to init a git repository in this folder.
+You need to init a git repository in this folder, to be able to run the [Gitbook Commands](https://github.com/GitbookIO/gitbook#how-to-use-it).
 
 To deploy your book to github pages do
 
