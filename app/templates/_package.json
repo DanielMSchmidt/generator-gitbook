@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "<%= bookname%>",
   "license": "MIT",
+  "dependencies": {
+    "gitbook": "~0.2.0"
+    },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-shell": "~0.3.1",
